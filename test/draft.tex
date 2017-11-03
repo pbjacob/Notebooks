@@ -1,0 +1,100 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 65001
+\documentclass{article}%
+\usepackage{amsmath}%
+\setcounter{MaxMatrixCols}{30}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=65001}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+%TCIDATA{Created=Wednesday, June 21, 2017 14:03:39}
+%TCIDATA{LastRevised=Monday, July 03, 2017 12:15:42}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%BeginMSIPreambleData
+\providecommand{\U}[1]{\protect\rule{.1in}{.1in}}
+%EndMSIPreambleData
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\begin{document}
+$I\dot{\omega}=T_{M}-T_{L}$
+
+$v=Ri+L\frac{\partial i}{\partial t}+\frac{\omega}{K_{V}}\qquad\rightarrow
+\qquad i=\frac{1}{R}\left(  v-L\frac{\partial i}{\partial t}-\frac{\omega
+}{K_{V}}\right)  $
+
+$T_{M}=\frac{\left(  i-i_{0}\right)  }{K_{Q}}$
+
+
+
+$I\dot{\omega}=\frac{\left(  i-i_{0}\right)  }{K_{Q}}-T_{L}$
+
+$=\left(  i-i_{0}\right)  \frac{1}{K_{Q}}-T_{L}$
+
+$=\left[  \frac{1}{R}\left(  v-L\frac{\partial i}{\partial t}-\frac{\omega
+}{K_{V}}\right)  -i_{0}\right]  \frac{1}{K_{Q}}-T_{L}$
+
+$=\left[  \frac{1}{R}\left(  v-\frac{\omega}{K_{V}}\right)  -i_{0}\right]
+\frac{1}{K_{Q}}-T_{L}$
+
+
+
+Linearization:
+
+$\Delta\dot{\omega}=\left[  -\frac{1}{RK_{V}K_{Q}I}-\frac{2b_{D_{1}}\omega
+_{0}}{I}-\frac{2b_{D_{2}}\omega_{0}\alpha_{0}^{2}}{I}-\frac{b_{D_{3}}%
+\alpha_{0}}{I}\right]  \Delta\omega+\left[
+\begin{array}
+[c]{cc}%
+\frac{1}{RK_{Q}I} & \frac{-2b_{D_{2}}\omega_{0}^{2}\alpha_{0}}{I}%
+-\frac{-b_{D_{3}}\omega_{0}}{I}%
+\end{array}
+\right]  \left[
+\begin{array}
+[c]{c}%
+\Delta v\\
+\Delta\alpha
+\end{array}
+\right]  $
+
+$\Delta L=\left[  2b_{L}\omega_{0}\alpha_{0}\right]  \Delta\omega+\left[
+\begin{array}
+[c]{cc}%
+0 & b_{L}\omega_{0}^{2}%
+\end{array}
+\right]  \left[
+\begin{array}
+[c]{c}%
+\Delta v\\
+\Delta\alpha
+\end{array}
+\right]  $
+
+
+
+
+\end{document}
