@@ -7,7 +7,7 @@ ref is as follows:
 > line 3
 
 show Italics: *italic font*
-show Bold: **bold font*
+show Bold: **bold font**
 
 code is as follows:
 in text: `code name`
